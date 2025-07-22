@@ -1,17 +1,17 @@
-# J.A.V.I.P  
+# J.A.V.I.P.  
 **Just A Very Intelligent Pi Journal**
 
-A personal dashboard running on a Raspberry Pi — part journal, part productivity tool, part life companion.
+A personal dashboard running on a Raspberry Pi.
 
 ---
 
 ## Overview
 
-J.A.V.I.P is a self-hosted dashboard that lives on your Raspberry Pi. It includes:
+J.A.V.I.P. is a self-hosted dashboard that lives on your Raspberry Pi. It includes:
 
 - A daily journal
 - Task list
-- Random daily reminders (from a user-defined pool — great for memorization or motivation)
+- Random daily reminders (from a user-defined pool  great for memorization or motivation)
 - Bonus objectives of the day
 - Media recommendations (games, music, movies)
 - Weather and sensor-based data visualization (starting with APIs, then using Pi sensors)
@@ -46,7 +46,7 @@ J.A.V.I.P is a self-hosted dashboard that lives on your Raspberry Pi. It include
 ## User Stories (Conceptual Goals)
 
 - As a user, I can write daily journal entries to reflect on my day and track progress.
-- As a user, I can manage tasks — add, edit, mark as done.
+- As a user, I can manage tasks  add, edit, mark as done.
 - As a user, I receive one random reminder per day from a list I've created (facts, quotes, etc.).
 - As a user, I get a new "bonus objective" each day to encourage new habits or challenges.
 - As a user, I can see real-time weather on my dashboard.
