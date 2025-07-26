@@ -4,11 +4,11 @@ _(very basic so far just to have something)_
 
 ## Minimal Spring Boot Setup
 
-- [ ] Create new Spring Boot project
-- [ ] Add dependencies:
-  - [ ] Spring Web
-  - [ ] Spring Data JPA
-  - [ ] H2
+- [x] Create new Spring Boot project
+- [x] Add dependencies:
+  - [x] Spring Web
+  - [x] Spring Data JPA
+  - [x] H2
 
 ---
 
@@ -30,6 +30,7 @@ _(very basic so far just to have something)_
 
 - [ ] Run app
 - [ ] sanity checks and such before even worrying about persistance or actual external connectivity
+  - [x] first step : spring launches and works without anything else   
 - [ ] Use localhost/test endpoints to verify basic CRUD works
 
 ## current goal : have a JAVA app that has all the basic structure (UML/models) and manipulations needed for the core functions of the project. No persistance yet.
