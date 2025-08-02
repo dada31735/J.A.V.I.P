@@ -24,6 +24,7 @@ public class UserService {
         this.journalEntryRepository = journalEntryRepository;
     }
 
+    //region User management
     @Transactional
     public UserDTO getUserByEmail(String email) throws UserNotFoundException {
         User user = userRepository.findByEmail(email);
@@ -47,8 +48,9 @@ public class UserService {
         User user = UserDTO.toUser(userDTO);
         User saved = userRepository.save(user);
     }
+    //endregion
 
-    // Journal Entry methods
+    //region journal Entry management
     @Transactional
     public void createJournalEntry(JournalEntryDTO journalEntryDTO) throws UserNotFoundException {
         User user = userRepository.findById(journalEntryDTO.getUserId()).orElse(null);
@@ -90,4 +92,8 @@ public class UserService {
         }
         return JournalEntryDTO.fromJournalEntry(entry);
     }
+
+    //endregion
+
+    
 }
