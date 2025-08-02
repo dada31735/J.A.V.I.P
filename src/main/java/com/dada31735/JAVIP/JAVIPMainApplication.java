@@ -2,7 +2,6 @@ package com.dada31735.JAVIP;
 
 import com.dada31735.JAVIP.dto.UserDTO;
 import com.dada31735.JAVIP.service.UserService;
-import com.dada31735.JAVIP.utils.TcpServer;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,10 +10,10 @@ import org.springframework.context.annotation.Bean;
 import java.sql.SQLException;
 
 @SpringBootApplication
-public class Tp4H25InitialApplication {
+public class JAVIPMainApplication {
 
     public static void main(String[] args) throws SQLException {
-        SpringApplication.run(Tp4H25InitialApplication.class, args);
+        SpringApplication.run(JAVIPMainApplication.class, args);
 //         TcpServer.startTcpServer(); // Comment this out for now
     }
 
