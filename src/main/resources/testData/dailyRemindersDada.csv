@@ -1,0 +1,9 @@
+id,user_email,reminder_content
+1,test@example.com,"Contrary to an array, a list is more dynamic and can store various data types in one list. In other words, lists are heterogeneous."
+2,test@example.com,"In Java, a long is 64 bits / 8 bytes."
+3,test@example.com,"Array = container that holds a sequence of data continuously in memory."
+4,test@example.com,"Stack = short-lived structured data (method calls, local vars, params) automatically destroyed when the method finishes; Heap = dynamic long-lived objects (objects) that stay until manually deleted."
+5,test@example.com,"TCP ensures that packets arrive via acknowledgment and ordered delivery, while UDP is fast and has no guarantee of delivery."
+6,test@example.com,"MTU is the maximum size a packet can be sent; if a packet is too large, it is either fragmented or dropped if it can't be fragmented."
+7,test@example.com,"CWND window size = TCP sends a number of packets up to the CWND size. For each successful ACK received, TCP increases the window. If a packet is lost or dropped, TCP assumes congestion and reacts accordingly."
+8,john@example.com,"Pi is approximately 3.1416."
